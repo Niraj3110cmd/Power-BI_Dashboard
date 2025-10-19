@@ -1,8 +1,61 @@
-# Power-BI_Dashboard
-Interactive Power BI dashboard for pizza sales insights
-Here, we have data regarding pizza_id,	order_id,	pizza_name_id,	quantity,	order_date,	order_time,	unit_price,	total_price,	pizza_size,	pizza_category,	pizza_ingredients,	pizza_name
-Having pizza_id is unique, having 2 or more order_id. Pizza_size includes L(Large), M(Midium), S(Small), XL(Extraa Large), XXL(XX Large)   and   "Classic" "Veggie" "Supreme" and "Chicken".
-we have order_date data, from that we have calculated sales for each month
+# Pizza Sales Dataset
 
+## Overview
+This repository contains a comprehensive pizza sales dataset with detailed information about orders, pizzas, and customer transactions. The data includes order details, product information, pricing, and ingredient specifications.
 
+## Dataset Description
+
+### Columns
+- **pizza_id**: Unique identifier for each pizza
+- **order_id**: Unique identifier for each order
+- **pizza_name_id**: Internal identifier for pizza name
+- **quantity**: Number of pizzas ordered
+- **order_date**: Date when the order was placed (format: DD-MM-YYYY)
+- **unit_price**: Price per pizza unit
+- **total_price**: Total price for the quantity ordered
+- **pizza_size**: Size of the pizza (S, M, L, XL, etc.)
+- **pizza_category**: Category classification (Classic, Veggie, Chicken, Supreme)
+- **pizza_ingredients**: List of ingredients included in the pizza
+- **pizza_name**: Full descriptive name of the pizza
+
+### Data Statistics
+- **Total Records**: 583,452
+- **Date Range**: Starting from 01-01-2015
+- **Average Order Value**: ₹11,033.07
+- **Total Sales**: ₹3,754,993,577
+
+## File Format
+The data is stored in Excel format (.xlsx) with the primary data in the "pizza_sales" sheet.
+
+## Pizza Categories
+- Classic
+- Veggie
+- Chicken
+- Supreme
+
+## Pizza Sizes
+- S (Small)
+- M (Medium)
+- L (Large)
+- XL (Extra Large)
+
+## Use Cases
+This dataset is suitable for:
+- Sales analysis and trends
+- Revenue forecasting
+- Customer behavior analysis
+- Product performance comparison
+- Time-based analysis of ordering patterns
+- Ingredient popularity analysis
+
+## Data Quality
+- All records include complete order information
+- Timestamps are consistently formatted
+- Pricing data is accurate and reconciled
+
+## License
+Please specify your license here (e.g., MIT, CC0, etc.)
+
+## Contact
+For questions or issues related to this dataset, please open an issue in this repository.
 
