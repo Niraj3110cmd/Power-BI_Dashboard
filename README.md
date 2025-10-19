@@ -48,14 +48,7 @@ This dataset is suitable for:
 - Time-based analysis of ordering patterns
 - Ingredient popularity analysis
 
-## Data Quality
-- All records include complete order information
-- Timestamps are consistently formatted
-- Pricing data is accurate and reconciled
 
-## License
-Please specify your license here (e.g., MIT, CC0, etc.)
 
-## Contact
-For questions or issues related to this dataset, please open an issue in this repository.
+
 
